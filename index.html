@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boulbaroud Zakaria</title>
+    
+    <!-- Icon -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Header Nav -->
+    <header class="">
+      <nav class="container flex">
+        <div class="brand">
+          <a href="#">
+            <h1 class="text-logo">ZaKaRiA</h1>
+          </a>
+        </div>
+        <ul id="menu" class="menu">
+          <li class="menu-item">
+            <a class="menu-link flex-center active" href="#home">
+              <i class="fas fa-home"></i><span>Home</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link flex-center" href="#about">
+              <i class="fas fa-user"></i><span>About</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link flex-center" href="#portfolio">
+              <i class="fas fa-image"></i><span>Portfolio</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link flex-center" href="#service">
+              <i class="fas fa-user-cog"></i><span>Service</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link flex-center" href="#testimonial">
+              <i class="fas fa-comments"></i><span>Testimony</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link flex-center" href="#contact">
+              <i class="fas fa-address-book"></i><span>Contact</span>
+            </a>
+          </li>
+        </ul>
+        <div id="toggle" class="toggle flex-center">
+          <span></span>
+          <!-- <i class="fas fa-bars"></i> -->
+        </div>
+      </nav>
+    </header>
+    <!-- End Header Nav -->
+
+    <!-- Main -->
+    <main>
+      <!-- Home Section-->
+      <section id="home" class="home container flex" style="overflow: hidden">
+        <div class="profile">
+          <p>Hello, I'm</p>
+          <h1 class="name" id="name">Boulbaroud Zaki</h1>
+          <h2>Full Stack Developer</h2>
+          <ul class="social-media flex">
+            <li>
+              <a href="https://web.facebook.com/profile.php?id=100021486436420" target="_blank" class="flex-center fb">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/zakaria_boulbaroud/" target="_blank" class="flex-center ig">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/BoulbaroudZ" target="_blank" class="flex-center twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ZakariaBoulba" target="_blank" class="flex-center gh">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=212642751824&text=Thats me Zaki!" target="_blank" class="flex-center wa">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+          <a download="" href="pdf/CV.pdf" class="btn">
+            Download CV <i class="fa-solid fa-angles-down z"></i>
+          </a>
+        </div>
+        <div class="avatar">
+          <div class="photo">
+            <!-- svg rect -->
+            <svg class="svg_circle"></svg>
+            <img src="images/me1.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End Home Section-->
+
+      <!-- About Section -->
+      <section id="about" class="about container">
+        <h3 class="title">About Me</h3>
+        <div class="about-data space-y-5">
+          <div class="about-image">
+            <img src="images/me.jpg" alt="" />
+          </div>
+          <div class="about-info">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              facere tenetur temporibus excepturi quis accusantium architecto
+              nam consequuntur cum itaque! magnam mollitia.
+            </p>
+          </div>
+          <ul class="about-list">
+            <li class="about-item">
+              <span>Name</span>
+              <span>Boulbaroud Zakaria</span>
+            </li>
+            <li class="about-item">
+              <span>Phone</span>
+              <span>+212642751824</span>
+            </li>
+            <li class="about-item">
+              <span>Birthday</span>
+              <span>02nd December 2002</span>
+            </li>
+            <li class="about-item">
+              <span>Email</span>
+              <span>zakariaboulbaroud2@email.com</span>
+            </li>
+            <li class="about-item">
+              <span>Age</span>
+              <span>19</span>
+            </li>
+
+            <li class="about-item">
+              <span>Address</span>
+              <span>Hay Al Amal, Khouribga</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End About Section-->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio container">
+        <h3 class="title">Portofolio</h3>
+        <div class="portfolio-filter">
+          <ul class="filter-list flex space-1">
+            <li class="filter-item active" id="all">all</li>
+            <li class="filter-item" id="ui-ux">UI / UX</li>
+            <li class="filter-item" id="web">Web Design</li>
+            <li class="filter-item" id="web-dev">Web Dev</li>
+            <li class="filter-item" id="mobile-app">Mobile App</li>
+          </ul>
+        </div>
+        <div class="portfolio-list flex-wrap space-2">
+          <div class="portfolio-item" data-kategory="web">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/2.png" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web Resume</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="web">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/3.png" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web Portfolio</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="web">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/4.png" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web Resume</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="web-dev">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/5.png" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web App</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="web">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/6.png" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web Resume</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="web">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/7.jpg" alt="" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Web Resume</h4>
+                <p>Sub Title</p>
+
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-kategory="mobile-app">
+            <div class="card">
+              <div class="portfolio-image">
+                <img src="images/1.jpg" />
+              </div>
+              <div class="desc flex-center">
+                <h4>Mobile Resume</h4>
+                <p>Sub Title</p>
+                <button class="btn">detail <i class="fas fa-eye"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section-->
+
+      <!-- Service Section -->
+      <section id="service" class="service container">
+        <h3 class="title">Service</h3>
+        <div class="service-list flex-wrap space-2">
+          <div class="service-item">
+            <div class="card flex-center">
+              <div class="service-img">
+                <img src="images/8.png" alt="" class="svg" />
+              </div>
+              <h4>UI / UX</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                dolore n quae cum et tempora!
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="card flex-center">
+              <div class="service-img">
+                <img src="images/9.png" class="svg" />
+              </div>
+              <h4>Web Design</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                dolore n quae cum et tempora!
+              </p>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="card flex-center">
+              <div class="service-img">
+                <img src="images/10.png" alt="" class="svg" />
+              </div>
+              <h4>Web Dev</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                dolore n quae cum et tempora!
+              </p>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="card flex-center">
+              <div class="service-img">
+                <img src="images/11.png" alt="" class="svg" />
+              </div>
+              <h4>Mobile Dev</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                dolore n quae cum et tempora!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Service Section-->
+
+      <!-- Testimonial Section -->
+      <section id="testimonial" class="testimonial container">
+        <h3 class="title">Testimonial</h3>
+        <div class="testimonial-list flex">
+          <div class="testimonial-item">
+            <div class="card">
+              <p class="caption">
+                He works hard and is a professional who masters his work and is known all over the world by his many clients
+              </p>
+              <img src="images/member-5.png" alt="" />
+              <h4>Abdessamad</h4>
+              <span>Full-Stack Developer</span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="card">
+              <p class="caption">
+                He works hard and is a professional who masters his work and is known all over the world by his many clients
+              </p>
+              <img src="images/member-2.png" alt="" />
+              <h4>Najlaa</h4>
+              <span>Front-End Developer</span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="card">
+              <p class="caption">
+                He works hard and is a professional who masters his work and is known all over the world by his many clients
+              </p>
+              <img src="images/member-1.png" alt="" />
+              <h4>Achraf</h4>
+              <span>Full-Stack Developer</span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="card">
+              <p class="caption">
+                He works hard and is a professional who masters his work and is known all over the world by his many clients
+              </p>
+              <img src="images/member-4.png" alt="" />
+              <h4>Zainabo</h4>
+              <span>UI / UX Developer</span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="card">
+              <p class="caption">
+                He works hard and is a professional who masters his work and is known all over the world by his many clients
+              </p>
+              <img src="images/member-3.png" alt="" />
+              <h4>Hamza</h4>
+              <span>Back-End Developer</span>
+              <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonial Section-->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact container">
+        <h3 class="title">Contact</h3>
+        <div class="contact-info flex">
+          <div class="contact-form">
+            <form action="">
+              <input type="text" placeholder="Name" class="input-name" />
+              <input type="text" placeholder="Email" class="input-email" />
+              <input type="text" placeholder="Subject" class="input-subject" />
+              <textarea
+                class="input-message"
+                placeholder="Message"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <button class="btn">Submit</button>
+            </form>
+          </div>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span>Email</span>
+              <span>zakariaboulbaroud2@gmail.com</span>
+            </li>
+
+            <li class="contact-item">
+              <span>Phone</span>
+              <span>+212642751824</span>
+            </li>
+            <li class="contact-item">
+              <span>Address</span>
+              <span>Hay Al Amal, Khouribga</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Contact Section-->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="">
+      <div class="container">
+        <div class="footer-top flex-wrap space-y-3">
+          <div class="about-footer">
+            <h5>About</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              tempore fugit, itatibus libero perspiciatis quam quae officia quos
+              voluptas eos iste.
+            </p>
+          </div>
+          <div>
+            <h5>Links</h5>
+
+            <ul class="link-footer space-x-3">
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#service">Service</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="subcribe">
+            <h5>Subscribe</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              perferendis!
+            </p>
+            <div class="email-subscribe">
+              <input type="email" placeholder="Email" />
+              <button class="">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom flex">
+          <div class="left">
+            <span>Copyright &copy; 2022 All rights reserved |</span>
+            <span>&nbsp;By Boulbaroud Zakaria</span>
+          </div>
+          <div class="right">
+            <a href="#">Term & Condition</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#" class="btn small">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="script.js"></script>
+</body>
+</html>
